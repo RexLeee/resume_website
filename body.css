@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.self-intro, .research, .project, .project-a, .project-b, .work-experience, .coursework, .honors-and-awards, .certificate, .life  {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* 圖片樣式 */
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.content-section h2,h4, hr, p, li {
+    margin-left: 20px; /* 設置左邊距為 20 像素 */
+}
+
+
+.content-section hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.content-section p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .self-intro, .research, .project, .project-a, .project-b, .work-experience, .coursework, .honors-and-awards, .license, .life {
+        margin-left: 30px;
+        margin-right: 30px; 
+    }
+}
+
+
+.pdf {
+    width: 500px;
+    height: 700px;
+}
+
+.pdf-container {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+}
